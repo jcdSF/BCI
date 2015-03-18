@@ -6,10 +6,14 @@ body {
   background: red;
 }
 
-.whatwedo {
+.services {
   background: green;
 }
 
 .about {
   background: blue;
+}
+
+.contact {
+  background: purple;
 }
