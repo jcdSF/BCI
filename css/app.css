@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .hero h1 {
-  font-size: 5em;
+ 
   text-shadow: 1px 1px 1px #000;
 }
 
@@ -60,4 +60,16 @@ h1, h2, h3, h4, h5 {
 
 .rounded {
   border-radius: 1000px;
+}
+
+@media only screen {
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 40.063em) {
+  .hero h1 {
+    font-size: 5rem;
+  } 
 }
